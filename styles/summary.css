@@ -1,0 +1,208 @@
+html{
+    font-family: sans-serif;
+    background-image:url(../images/bats.gif);
+
+   
+}
+
+
+header
+{
+border-bottom: 4px solid #000000;
+padding-top: 1em;
+padding-bottom: .5em;
+    background-image:image(flying_bats.jpg);
+background-image:linear-gradient(45deg, #ffffff 5%, #ff9900 38%, #ff9900 60%, #ff9900 75%, #000000 100%);
+   
+}
+
+header h2 {
+    font-style: normal;
+    margin-left: 4em;
+}
+
+
+body{
+   
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    width: 800px;
+    max-width: 960px;
+background-color: white;
+margin:  auto !important;
+padding: 0;
+border: 4px solid black;
+box-shadow:  6px 6px 8px black;
+}
+
+    h1{
+   
+    ::first-letter;
+    font-size: 120%;
+    color:black;
+    text-indent: 10px;
+}
+
+
+h1::first-letter{
+    font-size:175%;
+}
+
+header h3
+{
+    text-indent: 1em;
+    font-size:110%;
+    text-align: left center;
+    position: inherit;
+   
+      left: 190px;
+}
+
+
+
+
+
+
+    h2
+{
+    font-size: 160%;
+     text-shadow:black;
+}
+
+h4{
+    font-size: 98%;
+}
+
+header img
+    {
+        float:left;
+    }
+footer
+{
+      border-bottom: 4px solid #000000;
+padding-top: 1em;
+padding-bottom: 1em;
+background-image:linear-gradient(45deg, #000000 5%, #ff9900 38%, #ff9900 60%, #ff9900 75%, #ffffff 100%);
+}
+footer p {
+    font-size: 75%;
+    text-align: center !important;
+}
+
+
+
+#container{
+    display:flex;
+}
+
+element.style {
+}
+.left-nav a {
+    color:black;
+    padding:5px 20px;
+    background-color: orange;
+    text-decoration: none;
+    display: inline-block;
+    width: 80%;
+    border: 2px solid black !important;
+    font-weight:bold;
+    margin-top:5px;
+}
+
+.left-nav ul{
+    list-style-type:none;
+}
+
+main {
+clear: left;
+}
+
+
+
+.productionofweek a {
+    color: orange;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+.page-data {
+    padding: 20px 40px 20px 40px;
+}
+#top-nav {
+	background: #000;
+}
+#top-nav ul {
+	padding: 0;
+	margin:0;
+	list-style: none;
+	position: relative;z-index:1;		
+}
+#top-nav ul li {	
+	display: inline;
+	float: left;
+	padding: 0;
+	width: 20%; 
+}
+#top-nav .current-page {
+	color:orange;
+}
+#top-nav a {	
+	display:block; 				
+	text-align:center; 
+	padding-top: 1em 0 1em 0; 
+	text-decoration:none; 
+	background-color:black; 
+	color:white; 
+	font-weight:bold;
+		
+} 
+#top-nav a:hover{
+	background-color:darkgrey;
+}
+#top-nav ul ul{	
+	display: none;
+	position:absolute;
+	width:inherit;
+	float:left;
+}
+#top-nav  ul ul li {
+	float:none;
+}
+#top-nav ul li:hover ul {
+	display: block;
+}
+#top-nav  ul::after {
+	content: "";
+	display: block;
+	clear: both; 
+}
+
+
+td, th {
+	padding: .2em .2em;
+}
+td {
+	width: 177.5px;
+}
+th {
+	text-align: left;
+	color: gray;
+}
+th:last-child, td:last-child {
+	text-align: right;
+	width: 65px;
+}
+td:last-child {
+	background-color: #F5DEB3;
+}
+
+.page-data h2{
+   text-align:center;
+}
+
+.page-data a{
+    color:black;
+}
