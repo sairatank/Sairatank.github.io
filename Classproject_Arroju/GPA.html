@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="styles.css" rel="stylesheet">
+  <link href="join.css" rel="stylesheet">
+  <title>Auburn Univerity</title>
+</head>
+
+<!--<style>
+input[type=text]
+{
+ border:2px solid blue;
+}
+input[type=button]
+{
+ background-color: skyblue;
+ color:white;
+}
+</style>
+-->
+  <!-- Favicons -->
+  <link href="images/udp.svg" rel="icon">
+  <link href="images/udp.svg" rel="apple-touch-icon">
+
+<body class="full-height-grow">
+  <div class="container full-height-grow">
+    <header class="main-header">
+      <a href="/" class="brand-logo">
+        <img src="images/udp.svg">
+        <div class="brand-logo-name">Auburn Univerity</div>
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a><li>
+          <li><a href="Apply.html">Applications</a></li>
+          <li><a href="Computer Science.html">Computer Science
+          <li><a href="GPA.html">GPA</a><li>
+          <li><a href="blog.html">Story Line</a></li>
+
+        </ul>
+      </nav>
+
+    </header>
+    <section class="join-main-section">
+      <h1 class="join-text">
+        GPA
+        <span class="accent-text">Calculator</span>
+      </h1>
+      <!--<form method= "post" enctype="text" action="mailto:ratankesari18@gmail.com" class="join-form" >  -->
+
+        <form name="myform" class="join-form">
+  <div class="input-group">
+
+      <label>Grade Points-CS 1:</label>
+      <input type="text" name="fst">
+  </div>
+  <div class="input-group">
+      <label>Grade Points-CS 2:</label>
+      <input type="text" name="fst1">
+    </div>
+  <div class="input-group">
+      <label>Credit Hours-CS 1:</label>
+      <input type="text" name="snd">
+    </div>
+
+  
+    <div class="input-group">
+      <label>Credit Hours CS 2:</label>
+      <input type="text" name="snd1">
+    </div>
+
+     <div class="input-group">
+      <label>Average GPA</label>
+      <input type="text" name="result">
+    </div> 
+
+
+    <div class="input-group">
+      <input type="button" class="btn" name="" value="Compute GPA" onclick="add()">
+      </div>
+
+   
+ </form>
+<!--end of Form-->
+<!-- Javascript Handler-->
+
+ <script type="text/javascript">
+  function add(){
+   fst=parseInt(myform.fst.value);
+   snd=parseInt(myform.snd.value);
+   fst1=parseInt(myform.fst1.value);
+   snd1=parseInt(myform.snd1.value);
+
+   result=((fst*snd)+(fst1*snd1))/(snd1+snd);
+   //result=result1/2;
+   myform.result.value=result;
+  }
+
+  function subtract() {
+   fst=parseInt(myform.fst.value);
+   snd=parseInt(myform.snd.value);
+   result=fst-snd;
+   myform.result.value=result;
+  }
+
+  function multiply(){
+   fst=parseInt(myform.fst.value);
+   snd=parseInt(myform.snd.value);
+   result=fst*snd;
+   myform.result.value=result;
+  }
+  function divide(){
+   fst=parseInt(myform.fst.value);
+   snd=parseInt(myform.snd.value);
+   result=fst/snd;
+   myform.result.value=result;
+  }
+ </script>
+
+    </section>
+  </div>
+
+  <!--<div class="join-page-circle-1"></div>
+  <div class="join-page-circle-2"></div>
+-->
+  <footer class="main-footer">
+    <div class="container">
+      <nav class="footer-nav">
+        <ul>
+       
+          <li><a href="hire.html">Contact</a></li>
+          <li><a href="hire.html">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&copy; Copyright 2020</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-nav">
+     <ul>
+          <li>
+            <a href="https://twitter.com/RatanKesari" class="social-link">
+              <img src="images/tweet.png">
+              
+            </a>
+          </li>
+          <li>
+            <a href="https://web.facebook.com/?_rdc=1&_rdr" class="social-link">
+              <img src="images/fb.png">
+              
+            </a>
+          </li>
+           <li>
+            <a href="https://www.linkedin.com/in/ratan-kesari-425ba71b3/" class="social-link">
+              <img src="images/linked.png">
+              
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
